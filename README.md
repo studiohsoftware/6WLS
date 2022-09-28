@@ -1,6 +1,4 @@
 # 6WLS Powered Busboard
-</br>
-</br>
 This powered busboard design features a four layer PCB with a single dedicated ground plane and EMI shielded supplies. The result is a very low noise system with unprecedented preset bus stability.
 </br>
 </br>
