@@ -6,3 +6,6 @@ There are two versions that fit Buchla cases. A 30W version for cases 18 spaces 
 </br>
 </br>
 There is one version based on the Cincon CHB power supply. The CHB version should swap into any system based on Roman busboards. Boops, SAM, and others. The BOM indicates the 75 watt CHB75, but other wattages (eg. CHB50) will also fit.
+</br>
+</br>
+![6WLS-40W Image](6WLS-40W-1.jpg?raw=true "6WLS-40W")
