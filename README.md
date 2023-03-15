@@ -5,9 +5,6 @@ This powered busboard design features a four layer PCB with a single dedicated g
 There are two versions that fit Buchla cases. A 30W version for cases 18 spaces or less, and a 40W version for 24 space cases. The only difference between them are the supplies used, and the PCB footprints to support them (the board mounting in the boat is exactly the same.) The 30W version uses the Cincon EC6C, and the 40W version uses the Cincon EC7C. These supplies can be back ordered through either mouser.com or sager.com. 
 </br>
 </br>
-There is one version based on the Cincon CHB power supply. The CHB version should swap into any system based on Roman busboards. Boops, SAM, and others. The BOM indicates the 75 watt CHB75, but other wattages (eg. CHB50) will also fit.
-</br>
-</br>
 Passive busboards on Roman bolt spacing can be ordered through Osh Park here https://oshpark.com/projects/a7F1rsy2
 </br>
 </br>
