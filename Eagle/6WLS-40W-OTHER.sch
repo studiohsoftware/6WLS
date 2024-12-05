@@ -559,25 +559,25 @@ COM</text>
 <wire x1="-25.4" y1="23.495" x2="-25.4" y2="-26.035" width="0.1524" layer="21"/>
 <wire x1="-24.765" y1="-26.67" x2="-25.4" y2="-26.035" width="0.1524" layer="21"/>
 <text x="-25.4" y="24.511" size="1.27" layer="25" font="vector" ratio="12">&gt;NAME</text>
-<text x="-21.336" y="10.922" size="1.016" layer="21" font="vector" ratio="12">ON/OFF</text>
+<text x="-20.828" y="10.922" size="1.016" layer="21" font="vector" ratio="12">ON/OFF</text>
 <text x="-25.4" y="-28.321" size="1.27" layer="27" font="vector" ratio="12">&gt;VALUE</text>
-<pad name="ONOFF" x="-22.86" y="11.43" drill="1.1"/>
-<pad name="VIN-" x="-22.86" y="1.27" drill="1.1"/>
-<pad name="VIN+" x="-22.86" y="-3.81" drill="1.1"/>
-<text x="-21.336" y="0.762" size="1.016" layer="21" font="vector" ratio="12">VIN-</text>
-<text x="-21.336" y="-4.318" size="1.016" layer="21" font="vector" ratio="12">VIN+</text>
-<pad name="VO+" x="22.86" y="3.81" drill="1.1"/>
-<text x="18.796" y="3.302" size="1.016" layer="21" font="vector" ratio="12">VO+</text>
-<text x="18.161" y="16.002" size="1.016" layer="21" font="vector" ratio="12">TRIM</text>
+<pad name="ONOFF" x="-22.86" y="11.43" drill="1.1" shape="long" rot="R180"/>
+<pad name="VIN-" x="-22.86" y="1.27" drill="1.1" shape="long"/>
+<pad name="VIN+" x="-22.86" y="-3.81" drill="1.1" shape="long" rot="R180"/>
+<text x="-20.828" y="0.762" size="1.016" layer="21" font="vector" ratio="12">VIN-</text>
+<text x="-20.828" y="-4.318" size="1.016" layer="21" font="vector" ratio="12">VIN+</text>
+<pad name="VO+" x="22.86" y="3.81" drill="1.1" shape="long" rot="R180"/>
+<text x="18.288" y="3.302" size="1.016" layer="21" font="vector" ratio="12">VO+</text>
+<text x="17.526" y="16.002" size="1.016" layer="21" font="vector" ratio="12">TRIM</text>
 <wire x1="25.4" y1="23.495" x2="25.4" y2="-26.035" width="0.1524" layer="21"/>
-<pad name="S+" x="22.86" y="-1.27" drill="1.1"/>
-<text x="19.558" y="-1.905" size="1.016" layer="21" font="vector" ratio="12">S+</text>
-<pad name="VO-" x="22.86" y="11.43" drill="1.1"/>
+<pad name="S+" x="22.86" y="-1.27" drill="1.1" shape="long" rot="R180"/>
+<text x="19.304" y="-1.905" size="1.016" layer="21" font="vector" ratio="12">S+</text>
+<pad name="VO-" x="22.86" y="11.43" drill="1.1" shape="long" rot="R180"/>
 <text x="18.415" y="10.922" size="1.016" layer="21" font="vector" ratio="12">VO-</text>
-<pad name="TRIM" x="22.86" y="16.51" drill="1.1"/>
-<pad name="S-" x="22.86" y="-8.89" drill="1.1"/>
-<text x="19.558" y="-9.525" size="1.016" layer="21" font="vector" ratio="12">S-</text>
-<pad name="NC" x="22.86" y="-16.51" drill="1.1"/>
+<pad name="TRIM" x="22.86" y="16.51" drill="1.1" shape="long" rot="R180"/>
+<pad name="S-" x="22.86" y="-8.89" drill="1.1" shape="long"/>
+<text x="19.304" y="-9.525" size="1.016" layer="21" font="vector" ratio="12">S-</text>
+<pad name="NC" x="22.86" y="-16.51" drill="1.1" shape="long" rot="R180"/>
 <text x="19.812" y="-17.145" size="1.016" layer="21" font="vector" ratio="12">NC</text>
 <text x="-25.908" y="10.922" size="1.016" layer="22" font="vector" ratio="12" rot="MR0">ON/OFF</text>
 <text x="-25.908" y="0.762" size="1.016" layer="22" font="vector" ratio="12" rot="MR0">VIN-</text>
@@ -12520,8 +12520,8 @@ Source: http://eshop.phoenixcontact.com .. 1729157.pdf</description>
 <sheets>
 <sheet>
 <plain>
-<text x="367.03" y="6.35" size="2.54" layer="97" font="vector" ratio="12">FBA-6WLS-40W</text>
-<text x="417.83" y="6.35" size="2.54" layer="97" font="vector" ratio="12">9</text>
+<text x="367.03" y="6.35" size="2.54" layer="97" font="vector" ratio="12">FBA-6WLS-40W-OTHER</text>
+<text x="417.83" y="6.35" size="2.54" layer="97" font="vector" ratio="12">1</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>

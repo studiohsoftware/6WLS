@@ -753,25 +753,25 @@ Sullins EBC06DRAS</description>
 <wire x1="-25.4" y1="23.495" x2="-25.4" y2="-26.035" width="0.1524" layer="21"/>
 <wire x1="-24.765" y1="-26.67" x2="-25.4" y2="-26.035" width="0.1524" layer="21"/>
 <text x="-25.4" y="24.511" size="1.27" layer="25" font="vector" ratio="12">&gt;NAME</text>
-<text x="-21.336" y="10.922" size="1.016" layer="21" font="vector" ratio="12">ON/OFF</text>
+<text x="-20.828" y="10.922" size="1.016" layer="21" font="vector" ratio="12">ON/OFF</text>
 <text x="-25.4" y="-28.321" size="1.27" layer="27" font="vector" ratio="12">&gt;VALUE</text>
-<pad name="ONOFF" x="-22.86" y="11.43" drill="1.1"/>
-<pad name="VIN-" x="-22.86" y="1.27" drill="1.1"/>
-<pad name="VIN+" x="-22.86" y="-3.81" drill="1.1"/>
-<text x="-21.336" y="0.762" size="1.016" layer="21" font="vector" ratio="12">VIN-</text>
-<text x="-21.336" y="-4.318" size="1.016" layer="21" font="vector" ratio="12">VIN+</text>
-<pad name="VO+" x="22.86" y="3.81" drill="1.1"/>
-<text x="18.796" y="3.302" size="1.016" layer="21" font="vector" ratio="12">VO+</text>
-<text x="18.161" y="16.002" size="1.016" layer="21" font="vector" ratio="12">TRIM</text>
+<pad name="ONOFF" x="-22.86" y="11.43" drill="1.1" shape="long" rot="R180"/>
+<pad name="VIN-" x="-22.86" y="1.27" drill="1.1" shape="long"/>
+<pad name="VIN+" x="-22.86" y="-3.81" drill="1.1" shape="long" rot="R180"/>
+<text x="-20.828" y="0.762" size="1.016" layer="21" font="vector" ratio="12">VIN-</text>
+<text x="-20.828" y="-4.318" size="1.016" layer="21" font="vector" ratio="12">VIN+</text>
+<pad name="VO+" x="22.86" y="3.81" drill="1.1" shape="long" rot="R180"/>
+<text x="18.288" y="3.302" size="1.016" layer="21" font="vector" ratio="12">VO+</text>
+<text x="17.526" y="16.002" size="1.016" layer="21" font="vector" ratio="12">TRIM</text>
 <wire x1="25.4" y1="23.495" x2="25.4" y2="-26.035" width="0.1524" layer="21"/>
-<pad name="S+" x="22.86" y="-1.27" drill="1.1"/>
-<text x="19.558" y="-1.905" size="1.016" layer="21" font="vector" ratio="12">S+</text>
-<pad name="VO-" x="22.86" y="11.43" drill="1.1"/>
+<pad name="S+" x="22.86" y="-1.27" drill="1.1" shape="long" rot="R180"/>
+<text x="19.304" y="-1.905" size="1.016" layer="21" font="vector" ratio="12">S+</text>
+<pad name="VO-" x="22.86" y="11.43" drill="1.1" shape="long" rot="R180"/>
 <text x="18.415" y="10.922" size="1.016" layer="21" font="vector" ratio="12">VO-</text>
-<pad name="TRIM" x="22.86" y="16.51" drill="1.1"/>
-<pad name="S-" x="22.86" y="-8.89" drill="1.1"/>
-<text x="19.558" y="-9.525" size="1.016" layer="21" font="vector" ratio="12">S-</text>
-<pad name="NC" x="22.86" y="-16.51" drill="1.1"/>
+<pad name="TRIM" x="22.86" y="16.51" drill="1.1" shape="long" rot="R180"/>
+<pad name="S-" x="22.86" y="-8.89" drill="1.1" shape="long"/>
+<text x="19.304" y="-9.525" size="1.016" layer="21" font="vector" ratio="12">S-</text>
+<pad name="NC" x="22.86" y="-16.51" drill="1.1" shape="long" rot="R180"/>
 <text x="19.812" y="-17.145" size="1.016" layer="21" font="vector" ratio="12">NC</text>
 <text x="-25.908" y="10.922" size="1.016" layer="22" font="vector" ratio="12" rot="MR0">ON/OFF</text>
 <text x="-25.908" y="0.762" size="1.016" layer="22" font="vector" ratio="12" rot="MR0">VIN-</text>
@@ -12690,6 +12690,127 @@ diameter 5 mm, grid 2.54 mm</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="con-phoenix-508">
+<description>&lt;b&gt;Phoenix Connectors&lt;/b&gt;&lt;p&gt;
+Grid 5.08 mm&lt;p&gt;
+Based on the previous libraries:
+&lt;ul&gt;
+&lt;li&gt;pho508a.lbr
+&lt;li&gt;pho508b.lbr
+&lt;li&gt;pho508c.lbr
+&lt;li&gt;pho508d.lbr
+&lt;li&gt;pho508e.lbr
+&lt;/ul&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="MKDSN1,5/2-5,08">
+<description>&lt;b&gt;MKDSN 1,5/ 2-5,08&lt;/b&gt; Printklemme&lt;p&gt;
+Nennstrom: 13,5 A&lt;br&gt;
+Nennspannung: 250 V&lt;br&gt;
+Rastermaß: 5,08 mm&lt;br&gt;
+Polzahl: 2&lt;br&gt;
+Anschlussart: Schraubanschluss&lt;br&gt;
+Montage: Löten&lt;br&gt;
+Anschlussrichtung Leiter/Platine: 0 °&lt;br&gt;
+Artikelnummer: 1729128&lt;br&gt;
+Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
+<wire x1="-5.1011" y1="-4.05" x2="5.0589" y2="-4.05" width="0.2032" layer="21"/>
+<wire x1="-5.1011" y1="2.5243" x2="5.0589" y2="2.5243" width="0.2032" layer="21"/>
+<wire x1="-2.7211" y1="-0.63" x2="-3.6341" y2="-1.543" width="0.2032" layer="51"/>
+<wire x1="-5.1011" y1="-1.9555" x2="-5.1011" y2="-2.4479" width="0.2032" layer="21"/>
+<wire x1="-5.1011" y1="-3.327" x2="-5.2298" y2="-3.327" width="0.2032" layer="21"/>
+<wire x1="-5.2298" y1="-2.913" x2="-5.1011" y2="-2.913" width="0.2032" layer="21"/>
+<wire x1="-5.1011" y1="-3.1279" x2="-5.1011" y2="-2.913" width="0.2032" layer="21"/>
+<wire x1="-5.1011" y1="-3.327" x2="-5.1011" y2="-3.1279" width="0.2032" layer="21"/>
+<wire x1="-5.6711" y1="-2.763" x2="-5.4081" y2="-2.763" width="0.2032" layer="21"/>
+<wire x1="-5.6711" y1="-3.477" x2="-5.4081" y2="-3.477" width="0.2032" layer="21"/>
+<wire x1="-5.1011" y1="-2.913" x2="-5.1011" y2="-2.4479" width="0.2032" layer="21"/>
+<wire x1="-5.2298" y1="-3.327" x2="-5.4081" y2="-3.477" width="0.2032" layer="21"/>
+<wire x1="-5.6711" y1="-2.763" x2="-5.6711" y2="-3.477" width="0.2032" layer="21"/>
+<wire x1="-5.1011" y1="2.5243" x2="-5.1011" y2="2.0413" width="0.2032" layer="21"/>
+<wire x1="-5.1011" y1="-1.9555" x2="-5.1011" y2="2.0413" width="0.2032" layer="21"/>
+<wire x1="-5.4081" y1="-2.763" x2="-5.2298" y2="-2.913" width="0.2032" layer="21"/>
+<wire x1="5.0589" y1="-2.4479" x2="-5.1011" y2="-2.4479" width="0.2032" layer="21"/>
+<wire x1="-2.5611" y1="-0.47" x2="-2.7211" y2="-0.63" width="0.2032" layer="51"/>
+<wire x1="-3.2001" y1="-0.119" x2="-2.5611" y2="0.52" width="0.2032" layer="51"/>
+<wire x1="-4.1291" y1="-1.048" x2="-3.2001" y2="-0.119" width="0.2032" layer="51"/>
+<wire x1="0.9509" y1="-1.048" x2="1.8799" y2="-0.119" width="0.2032" layer="51"/>
+<wire x1="5.0589" y1="-1.9555" x2="5.0589" y2="-2.4479" width="0.2032" layer="21"/>
+<wire x1="2.3589" y1="-0.63" x2="1.4459" y2="-1.543" width="0.2032" layer="51"/>
+<wire x1="1.8799" y1="-0.119" x2="2.5189" y2="0.52" width="0.2032" layer="51"/>
+<wire x1="2.5189" y1="-0.47" x2="2.3589" y2="-0.63" width="0.2032" layer="51"/>
+<wire x1="4.0869" y1="1.098" x2="3.1489" y2="0.16" width="0.2032" layer="51"/>
+<wire x1="2.6379" y1="0.639" x2="3.5919" y2="1.593" width="0.2032" layer="51"/>
+<wire x1="3.1489" y1="0.16" x2="2.5189" y2="-0.47" width="0.2032" layer="51"/>
+<wire x1="2.5189" y1="0.52" x2="2.6379" y2="0.639" width="0.2032" layer="51"/>
+<wire x1="-1.9311" y1="0.16" x2="-2.5611" y2="-0.47" width="0.2032" layer="51"/>
+<wire x1="-2.5611" y1="0.52" x2="-2.4421" y2="0.639" width="0.2032" layer="51"/>
+<wire x1="-2.4421" y1="0.639" x2="-1.4881" y2="1.593" width="0.2032" layer="51"/>
+<wire x1="-0.9931" y1="1.098" x2="-1.9311" y2="0.16" width="0.2032" layer="51"/>
+<wire x1="-5.1011" y1="-3.1279" x2="5.0589" y2="-3.1279" width="0.2032" layer="21"/>
+<wire x1="5.0589" y1="-3.1279" x2="5.0589" y2="-2.4479" width="0.2032" layer="21"/>
+<wire x1="5.0589" y1="-1.9555" x2="5.0589" y2="2.0413" width="0.2032" layer="21"/>
+<wire x1="5.0589" y1="2.5243" x2="5.0589" y2="2.0413" width="0.2032" layer="21"/>
+<wire x1="5.0589" y1="2.5243" x2="5.0589" y2="4.05" width="0.2032" layer="21"/>
+<wire x1="-5.1011" y1="-3.75" x2="-5.1011" y2="-3.327" width="0.2032" layer="21"/>
+<wire x1="5.0589" y1="-3.75" x2="5.0589" y2="-3.1279" width="0.2032" layer="21"/>
+<wire x1="-5.1011" y1="4.05" x2="5.0589" y2="4.05" width="0.2032" layer="21"/>
+<wire x1="-5.1011" y1="2.5243" x2="-5.1011" y2="4.05" width="0.2032" layer="21"/>
+<wire x1="5.0589" y1="-3.75" x2="-5.1011" y2="-3.75" width="0.2032" layer="21"/>
+<wire x1="-5.1011" y1="-3.75" x2="-5.1011" y2="-4.05" width="0.2032" layer="21"/>
+<wire x1="5.0589" y1="-3.75" x2="5.0589" y2="-4.05" width="0.2032" layer="21"/>
+<wire x1="-3.2001" y1="-0.119" x2="-2.7211" y2="-0.63" width="0.2032" layer="51" curve="65.201851"/>
+<wire x1="1.8799" y1="-0.119" x2="2.3589" y2="-0.63" width="0.2032" layer="51" curve="65.201851"/>
+<wire x1="3.1489" y1="0.16" x2="2.6379" y2="0.639" width="0.2032" layer="51" curve="65.201851"/>
+<wire x1="-1.9311" y1="0.16" x2="-2.4421" y2="0.639" width="0.2032" layer="51" curve="65.201851"/>
+<circle x="-2.5611" y="0.025" radius="1.915" width="0.2032" layer="21"/>
+<circle x="2.5189" y="0.025" radius="1.915" width="0.2032" layer="21"/>
+<pad name="1" x="-2.5611" y="0.025" drill="1.3" diameter="2"/>
+<pad name="2" x="2.5189" y="0.025" drill="1.3" diameter="2"/>
+<text x="-4.7511" y="4.445" size="1.27" layer="25">&gt;NAME</text>
+<text x="6.985" y="-3.81" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="KLV">
+<circle x="1.27" y="0" radius="1.27" width="0.254" layer="94"/>
+<circle x="1.27" y="0" radius="1.27" width="0.254" layer="94"/>
+<circle x="1.27" y="0" radius="1.27" width="0.254" layer="94"/>
+<text x="3.048" y="-0.889" size="1.778" layer="95">&gt;NAME</text>
+<text x="-2.54" y="-3.683" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="KL" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="MKDSN1,5/2-5,08" prefix="X">
+<description>&lt;b&gt;MKDSN 1,5/ 2-5,08&lt;/b&gt; Printklemme&lt;p&gt;
+Nennstrom: 13,5 A&lt;br&gt;
+Nennspannung: 250 V&lt;br&gt;
+Rastermaß: 5,08 mm&lt;br&gt;
+Polzahl: 2&lt;br&gt;
+Anschlussart: Schraubanschluss&lt;br&gt;
+Montage: Löten&lt;br&gt;
+Anschlussrichtung Leiter/Platine: 0 °&lt;br&gt;
+Artikelnummer: 1729128&lt;br&gt;
+Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
+<gates>
+<gate name="-1" symbol="KLV" x="0" y="0" addlevel="always" swaplevel="1"/>
+<gate name="-2" symbol="KLV" x="0" y="-5.08" addlevel="always" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="MKDSN1,5/2-5,08">
+<connects>
+<connect gate="-1" pin="KL" pad="1"/>
+<connect gate="-2" pin="KL" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -12744,12 +12865,13 @@ diameter 5 mm, grid 2.54 mm</description>
 <part name="J1" library="studio_h" deviceset="BARREL" device="55" value="12VDC-8A"/>
 <part name="SW1" library="studio_h" deviceset="SPDT" device="THRU"/>
 <part name="SV1" library="studio_h" deviceset="MA06-2" device="CARD"/>
+<part name="X1" library="con-phoenix-508" deviceset="MKDSN1,5/2-5,08" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 <text x="367.03" y="6.35" size="2.54" layer="97" font="vector" ratio="12">FBA-6WLS-40W</text>
-<text x="417.83" y="6.35" size="2.54" layer="97" font="vector" ratio="12">9</text>
+<text x="417.83" y="6.35" size="2.54" layer="97" font="vector" ratio="12">3</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
@@ -12790,6 +12912,8 @@ diameter 5 mm, grid 2.54 mm</description>
 <instance part="J1" gate="G$1" x="162.56" y="254"/>
 <instance part="SW1" gate="G$1" x="218.44" y="248.92"/>
 <instance part="SV1" gate="1" x="172.72" y="220.98"/>
+<instance part="X1" gate="-1" x="58.42" y="195.58"/>
+<instance part="X1" gate="-2" x="58.42" y="190.5"/>
 </instances>
 <busses>
 </busses>
@@ -13051,6 +13175,17 @@ diameter 5 mm, grid 2.54 mm</description>
 <pinref part="C6" gate="G$1" pin="2"/>
 <wire x1="53.34" y1="58.42" x2="53.34" y2="55.88" width="0.1524" layer="91"/>
 <junction x="53.34" y="55.88"/>
+</segment>
+<segment>
+<label x="55.88" y="180.34" size="1.27" layer="95" font="vector" ratio="12" xref="yes"/>
+<pinref part="X1" gate="-1" pin="KL"/>
+<wire x1="55.88" y1="195.58" x2="50.8" y2="195.58" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="195.58" x2="50.8" y2="190.5" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="190.5" x2="50.8" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="180.34" x2="55.88" y2="180.34" width="0.1524" layer="91"/>
+<pinref part="X1" gate="-2" pin="KL"/>
+<wire x1="55.88" y1="190.5" x2="50.8" y2="190.5" width="0.1524" layer="91"/>
+<junction x="50.8" y="190.5"/>
 </segment>
 </net>
 <net name="N$1" class="0">
