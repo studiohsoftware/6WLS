@@ -445,7 +445,6 @@
 <part name="FRAME1" library="studio_h" deviceset="FRAME_B_L" device=""/>
 <part name="H7" library="holes" deviceset="MOUNT-PAD-ROUND" device="3.3"/>
 <part name="H8" library="holes" deviceset="MOUNT-PAD-ROUND" device="3.3"/>
-<part name="H15" library="holes" deviceset="MOUNT-PAD-ROUND" device="3.3"/>
 <part name="H1" library="holes" deviceset="MOUNT-PAD-ROUND" device="3.3"/>
 <part name="H2" library="holes" deviceset="MOUNT-PAD-ROUND" device="3.3"/>
 </parts>
@@ -460,7 +459,6 @@
 <instance part="FRAME1" gate="G$2" x="325.12" y="0"/>
 <instance part="H7" gate="G$1" x="208.28" y="71.12"/>
 <instance part="H8" gate="G$1" x="208.28" y="63.5"/>
-<instance part="H15" gate="G$1" x="274.32" y="93.98"/>
 <instance part="H1" gate="G$1" x="208.28" y="91.44"/>
 <instance part="H2" gate="G$1" x="208.28" y="83.82"/>
 </instances>
